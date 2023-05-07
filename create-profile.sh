@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #image link
-IMAGELINK='assets/images/profile/'
+IMAGELINK='assets/images/profiles/'
 profiles_home_path='_profiles/'
 
 echo $'Enter full eg. Dut Andrew Kulang: '
@@ -26,7 +26,7 @@ if [ ! -f "$path_to_profile" ]
 
     read -p $'In which country are you active in?\n' COUNTRY
 
-    read -p $'In region/district/state of $COUNTRY are you operatin in?\n' REGION
+    read -p $"In region/district/state of $COUNTRY are you operatin in?\n" REGION
 
     read -p $'E-mail\n' EMAIL
 
