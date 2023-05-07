@@ -28,7 +28,8 @@ if [ ! -f "$path_to_profile" ]
     COUNTRY=$(echo "$COUNTRY" | tr -s ' ')
 
 
-    read -p $"In region/district/state of $COUNTRY are you operatin in?\n" REGION
+    echo -e $"In region/district/state of $COUNTRY are you operate in?\n"
+    read REGION
     REGION=$(echo "$REGION" | tr -s ' ')
 
     read -p $'E-mail\n' EMAIL
@@ -43,28 +44,28 @@ if [ ! -f "$path_to_profile" ]
 
     read -p $'Website URL e.g https://lead.asknet.community\n' WEBSITE_URL
 
-    read -p $'Telegram username e.g UserName\n' TELEGRAM
+    read -p $'Telegram username e.g Username\n' TELEGRAM
     TELEGRAM=$(echo "$TELEGRAM" | tr -s ' ')
 
-    read -p $'GitHub Username e.g UserName\n' GITHUB
+    read -p $'GitHub Username e.g Username\n' GITHUB
     GITHUB=$(echo "$GITHUB" | tr -s ' ')
 
-    read -p $'URL to LinkedIn profile\n' LINKEDIN
+    read -p $'URL to LinkedIn profile Username\n' LINKEDIN
     LINKEDIN=$(echo "$LINKEDIN" | tr -s ' ')
 
-    read -p $'Your twitter username\n' TWITTER
+    read -p $'Your twitter Username\n' TWITTER
     TWITTER=$(echo "$TWITTER" | tr -s ' ')
 
-    read -p $'Your Facebook username\n' FACEBOOK
+    read -p $'Your Facebook Username\n' FACEBOOK
     FACEBOOK=$(echo "$FACEBOOK" | tr -s ' ')
 
-    read -p $'Your instagram username\n' INSTAGRAM
+    read -p $'Your instagram Username\n' INSTAGRAM
     INSTAGRAM=$(echo "$INSTAGRAM" | tr -s ' ')
 
     read -p $'Mastodon profile link\n' MASTODON
     MASTODON=$(echo "$MASTODON" | tr -s ' ')
 
-    read -p $'Your wikifab username\n' WIKIFAB
+    read -p $'Your wikifab Username\n' WIKIFAB
     WIKIFAB=$(echo "$WIKIFAB" | tr -s ' ')
 
     read -p $'Other\n' OTHER
