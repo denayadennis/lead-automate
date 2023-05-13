@@ -28,7 +28,7 @@ if [ ! -f "$path_to_profile" ]
     COUNTRY=$(echo "$COUNTRY" | tr -s ' ')
 
 
-    echo -e $"In region/district/state of $COUNTRY are you operate in?\n"
+    echo -e $"In region/district/state of $COUNTRY are you operate in?"
     read REGION
     REGION=$(echo "$REGION" | tr -s ' ')
 
@@ -71,7 +71,7 @@ if [ ! -f "$path_to_profile" ]
     read -p $'Other\n' OTHER
     OTHER=$(echo "$OTHER" | tr -s ' ')
 
-    read -p $'Profile bio' BIO
+    read -p $'Profile bio\n' BIO
     BIO=$(echo "$BIO" | tr -s ' ')
 
     #check if the expert already has an image directory
@@ -111,10 +111,9 @@ facebook: $FACEBOOK
 instagram: $INSTAGRAM
 mastodon: $MASTODON
 wikifab: $WIKIFAB
-
+skill: \{\}
 ---
-$BIO
-" > $path_to_profile
+$BIO" > $path_to_profile
     else
         echo "$F_NAME already has a profile file at $path_to_profile."
 fi
