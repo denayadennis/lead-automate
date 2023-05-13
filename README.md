@@ -10,3 +10,4 @@ feature suggestions
 
 1. When creating a new profile, the script should be able to check in the `.archived` folder if the expert already had his/her profile archived. if match found the script should suggest un-archiving it with the options to choose `yes/no`
 
+2. Create a script for archiving profiles
