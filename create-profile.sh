@@ -1,3 +1,5 @@
+# author: Dut Andrew Kulang dutandrew78[at]gmail.com
+
 #!/bin/bash
 
 #image link
