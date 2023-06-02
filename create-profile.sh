@@ -113,9 +113,11 @@ facebook: $FACEBOOK
 instagram: $INSTAGRAM
 mastodon: $MASTODON
 wikifab: $WIKIFAB
-skill: \{\}
+skill: {
+
+}
 ---
-$BIO" > $path_to_profile
+$BIO" | tee > $path_to_profile
     else
         echo "$F_NAME already has a profile file at $path_to_profile."
 fi
