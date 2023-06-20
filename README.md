@@ -13,13 +13,17 @@ Inside the expert's `.md` file look for the image link `image: "assets/images/pr
 
 `assets/` -> means that inside the assests folder
 
-`assets/images/` -> means that there a folder called images inside assets
+`assets/images/` -> means that there is a folder called images inside assets
 
-`assets/images/profiles/` there is again another folder called profiles
+`assets/images/profiles/` there is also another folder called profiles inside images
 
-`assets/images/profiles/Dut-Andrew-Kulang/` Dut-Andrew-Kulang folder contains the pictures of an expert by the name of Dut Andrew Kulang
+`assets/images/profiles/Dut-Andrew-Kulang/` Dut-Andrew-Kulang folder contains the picture of an expert by the name of Dut Andrew Kulang
 
-`assets/images/profiles/Dut-Andrew-Kulang/Dut-Andrew-Kulang` -> rename expert picture to Dut-Andrew-Kulang.jpg (with dashes then add the image format type, jpg, jpeg, png)
+`assets/images/profiles/Dut-Andrew-Kulang/Dut-Andrew-Kulang` -> rename expert picture to `Dut-Andrew-Kulang.jpg` (with dashes then add the image format type, jpg, jpeg, png)
+
+Final the image link should look like this
+
+`assets/images/profiles/Dut-Andrew-Kulang/Dut-Andrew-Kulang.jpg` Your task is to rename the image and add the image extension to this line
 
 
 feature suggestions
