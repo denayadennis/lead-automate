@@ -113,7 +113,7 @@ facebook: $FACEBOOK
 instagram: $INSTAGRAM
 mastodon: $MASTODON
 wikifab: $WIKIFAB
-skill: \{\}
+skills: \{\}
 ---
 $BIO" > $path_to_profile
     else
