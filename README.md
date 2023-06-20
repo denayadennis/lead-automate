@@ -5,6 +5,22 @@ but if it is not, then use `chmod u+x create-profile.sh` to make it executable
 
 and `./create-profile.sh` to run the script
 
+### Tips
+
+Once the script has run it will create a folder inside the assets with the name of expert.
+
+Inside the expert's `.md` file look for the image link `image: "assets/images/profiles/Dut-Andrew-Kulang/Dut-Andrew-Kulang`
+
+`assets/` -> means that inside the assests folder
+
+`assets/images/` -> means that there a folder called images inside assets
+
+`assets/images/profiles/` there is again another folder called profiles
+
+`assets/images/profiles/Dut-Andrew-Kulang/` Dut-Andrew-Kulang folder contains the pictures of an expert by the name of Dut Andrew Kulang
+
+`assets/images/profiles/Dut-Andrew-Kulang/Dut-Andrew-Kulang` -> rename expert picture to Dut-Andrew-Kulang.jpg (with dashes then add the image format type, jpg, jpeg, png)
+
 
 feature suggestions
 
