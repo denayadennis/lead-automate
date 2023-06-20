@@ -96,7 +96,7 @@ if [ ! -f "$path_to_profile" ]
 echo "---
 layout: profile
 title: \"$F_NAME\"
-image: \"$IMAGELINK$D_NAME/\"
+image: \"$IMAGELINK$D_NAME/$D_NAME\"
 country: $COUNTRY
 region: $REGION
 hub: $HUB
@@ -114,7 +114,8 @@ instagram: $INSTAGRAM
 mastodon: $MASTODON
 wikifab: $WIKIFAB
 skills:
-  \- \{\}
+  - {
+  }
 ---
 $BIO" | tee > $path_to_profile
     else
