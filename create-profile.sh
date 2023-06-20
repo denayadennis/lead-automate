@@ -113,9 +113,9 @@ facebook: $FACEBOOK
 instagram: $INSTAGRAM
 mastodon: $MASTODON
 wikifab: $WIKIFAB
-skill: {
+skills:
+  \- \{\}
 
-}
 ---
 $BIO" | tee > $path_to_profile
     else
