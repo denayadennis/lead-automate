@@ -118,7 +118,10 @@ instagram: $INSTAGRAM
 mastodon: $MASTODON
 wikifab: $WIKIFAB
 skills:
-  - { name: , number: 1, qualification: ""}
+  - { name: '' , number: 1, qualification: ""}
+  - { name: '' , number: 2, qualification: ""}
+  - { name: '' , number: 3, qualification: ""}
+  - { name: '' , number: 4, qualification: ""}
 ---
 $BIO" | tee > $path_to_profile
     else
