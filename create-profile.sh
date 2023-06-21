@@ -26,6 +26,10 @@ if [ ! -f "$path_to_profile" ]
     read -p $'Hub/organization\n' HUB
     HUB=$(echo "$HUB" | tr -s ' ')
 
+    read -p $'Languages Eg: English (Very Good), Dinka (Native), French (Basic)\n' LANGUAGES
+    LANGUAGES=$(echo "$LANGUAGES" | tr -s ' ')
+    
+
     read -p $'In which country are you active in?\n' COUNTRY
     COUNTRY=$(echo "$COUNTRY" | tr -s ' ')
 
@@ -100,7 +104,7 @@ image: \"$IMAGELINK$D_NAME/$D_NAME\"
 country: $COUNTRY
 region: $REGION
 hub: $HUB
-languages:
+languages: $LANGUAGES
 mail: $EMAIL
 phone: \"$PHONE_NUMBER\"
 whatsapp: \"$WHATSAPP_NUMBER\"
