@@ -77,7 +77,7 @@ if [ ! -f "$path_to_profile" ]
     read -p $'Other\n' OTHER
     OTHER=$(echo "$OTHER" | tr -s ' ')
 
-    read -p $'Profile bio\n' BIO
+    read -d "@" -p $'Profile bio, Type @ at the end to continue\n' BIO
     BIO=$(echo "$BIO" | tr -s ' ')
 
     #check if the expert already has an image directory
