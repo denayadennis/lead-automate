@@ -1,4 +1,4 @@
-# author: Dut Andrew Kulang dutandrew78[at]gmail.com
+# author: Dut Andrew Kulang dutandrewkulang[at]gmail.com
 
 #!/bin/bash
 
@@ -84,10 +84,10 @@ if [ ! -f "$path_to_profile" ]
 
     if [ -d "$IMAGE_DIR" ]
     then
-        echo "$F_NAME already has a image folder at $IMAGE_DIR"
+        echo "\n$F_NAME already has a image folder at $IMAGE_DIR"
     else
         mkdir -p $IMAGE_DIR
-        echo "Image folder created for $F_NAME at $IMAGE_DIR"
+        echo "\nImage folder created for $F_NAME at $IMAGE_DIR"
     fi
 
 
@@ -125,5 +125,5 @@ skills:
 ---
 $BIO" | tee > $path_to_profile
     else
-        echo "$F_NAME already has a profile file at $path_to_profile."
+        echo "\n$F_NAME already has a profile file at $path_to_profile."
 fi
