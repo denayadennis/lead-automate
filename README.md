@@ -26,7 +26,7 @@ Final the image link should look like this
 `assets/images/profiles/Dut-Andrew-Kulang/Dut-Andrew-Kulang.jpg` Your task is to rename the image and add the image extension to this line
 
 
-feature suggestions
+### feature suggestions
 
 1. When creating a new profile, the script should be able to check in the `.archived` folder if the expert already had his/her profile archived. if match found the script should suggest un-archiving it with the options to choose `yes/no`
 
