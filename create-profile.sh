@@ -125,5 +125,6 @@ skills:
 ---
 $BIO" | tee > $path_to_profile
     else
-        echo "\n$F_NAME already has a profile file at $path_to_profile."
+        echo "\n"
+        echo "$F_NAME already has a profile file at $path_to_profile."
 fi
